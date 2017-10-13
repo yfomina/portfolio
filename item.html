@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<!-- Meta Data -->
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"/>
+	<title>Fomina Yulia</title>
+	<meta name='robots' content='noindex,follow'/>
+
+	<link rel='stylesheet' id='contact-form-7-css' href='css/form.css' type='text/css' media='all'/>
+	<link rel='stylesheet' id='monolitreset-css' href='css/reset.css' type='text/css' media='all'/>
+	<link rel='stylesheet' id='monolitplugins-css' href='css/plugins.css' type='text/css' media='all'/>
+	<link rel='stylesheet' id='monolittheme-style-css' href='css/style.css' type='text/css' media='all'/>
+	<link rel='stylesheet' id='monolitcustom-style-css' href='css/custom.css' type='text/css' media='all'/>
+	<style id='monolitcustom-style-inline-css' type='text/css'>
+		.vc_column-inner > .wpb_wrapper {
+			float: left;
+			width: 100%
+		}
+	</style>
+	<link rel='stylesheet' id='js_composer_front-css' href='css/js_composer.min.css' type='text/css' media='all'/>
+
+	<script type='text/javascript' src='js/jquery.js'></script>
+	<script type='text/javascript' src='js/jquery-migrate.min.js'></script>
+	<script type='text/javascript' src='js/underscore-min.js'></script>
+	<script type='text/javascript' src='js/polyglot-min.js'></script>
+	<script type='text/javascript' src='data/translations.js'></script>
+	<script type='text/javascript' src='data/portfolioData.js'></script>
+	<script type='text/javascript' src='data/tagsData.js'></script>
+
+	<link rel="stylesheet" href="js/fancybox/jquery.fancybox.min.css" />
+	<script src="js/fancybox/jquery.fancybox.min.js"></script>
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" type="text/css" href="css/vc_lte_ie9.min.css" media="screen">
+	<![endif]-->
+	<!--[if IE  8]>
+	<link rel="stylesheet" type="text/css" href="css/vc-ie8.min.css" media="screen">
+	<![endif]-->
+	<style type="text/css" data-type="vc_shortcodes-custom-css">
+		.vc_custom_1455730804223 {
+			padding-right: 0px !important;
+			padding-left: 0px !important;
+		}
+	</style>
+	<noscript>
+		<style type="text/css"> .wpb_animate_when_almost_visible {
+			opacity: 1;
+		}</style>
+	</noscript>
+</head>
+<body class="home page page-id-7 page-template page-template-homepage page-template-homepage-php wpb-js-composer js-comp-ver-4.11.1 vc_responsive">
+<div class="hor-nav-layout no-dis"></div>
+<!-- loader -->
+<div id="monolit-loader" class="loader">
+	<div id="movingBallG">
+		<div class="movingBallLineG"></div>
+		<div id="movingBallG_1" class="movingBallG"></div>
+	</div>
+</div>
+<!-- loader end -->
+
+<script type="text/template" id="mainTemplate">
+	<!--=============== header ===============-->
+	<header class="monolit-header">
+		<!-- header-inner  -->
+		<div class="header-inner">
+			<!-- header logo -->
+			<div class="logo-holder">
+				<a href="index.html">
+					<img src="images/logo.png" height="50" class="monolit-logo" alt="Yulia Fomina"/>
+				</a>
+			</div>
+			<!-- header logo end -->
+			<!-- mobile nav button -->
+			<div class="nav-button-holder">
+				<div class="nav-button vis-m"><span></span><span></span><span></span></div>
+			</div>
+			<!-- mobile nav button end -->
+			<!-- navigation  -->
+			<div class="nav-holder">
+				<nav>
+					<ul id="menu-monolit-navigation-menus" class="monolit_main-nav">
+						<li id="menu-item-17"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17">
+							<a href="index.html"><%= polyglot.t('general.HOME') %></a>
+						</li>
+						<li id="menu-item-344"
+							class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item menu-item-344">
+							<a href="portfolio.html" class="act-link ancestor-act-link parent-act-link"><%= polyglot.t('general.PORTFOLIO') %></a>
+						</li>
+						<li id="menu-item-174"
+							class="menu-item menu-item-type-post_type menu-item-object-page menu-item-174">
+							<a href="contact.html"><%= polyglot.t('general.CONTACT') %></a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<!-- navigation  end -->
+		</div>
+		<!-- header-inner  end -->
+		<!-- share button  -->
+		<div class="show-share isShare"><span><%= polyglot.t('general.SHARE') %></span><i class="fa fa-chain-broken"></i></div>
+		<!-- share  end-->
+	</header>
+	<!--=============== header end ===============-->
+
+	<!--=============== wrapper ===============-->
+	<div id="wrapper">
+		<!-- content-holder  -->
+		<div class="content-holder">
+
+			<div class="dynamic-title"><h1><%= polyglot.t('general.PORTFOLIO') %></h1></div>
+
+			<div class='monolit_sec monolit_folio_head_sec content'>
+				<section class="parallax-section">
+					<div class="parallax-inner">
+						<div class="bg"
+							 data-bg="images/background.jpg"
+							 data-top-bottom="transform: translateY(300px);"
+							 data-bottom-top="transform: translateY(-300px);"></div>
+						<div class="overlay" style="opacity:0.2;"></div>
+					</div>
+					<div class="container">
+						<div class="page-title">
+							<div class="row">
+								<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+									<div class="vc_column-inner ">
+										<div class="wpb_wrapper">
+											<h2 class="folio-title "><%= currentItem.name[polyglot.locale()] %></h2>
+										</div>
+									</div>
+								</div>
+								<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+									<div class="vc_column-inner ">
+										<div class="wpb_wrapper">
+											<ul id="breadcrumb" class="main-breadcrumb creat-list">
+												<li class="item-home">
+													<a class="bread-link bread-home" href="index.html" title="Home">
+														<%= polyglot.t('general.HOME') %>
+													</a>
+												</li>
+												<li class="item-cat item-custom-post-type-portfolio">
+													<a class="bread-cat bread-custom-post-type-portfolio" href="portfolio.html" title="Portfolio">
+														<%= polyglot.t('general.PORTFOLIO') %>
+													</a>
+												</li>
+												<li class="item-current item-310">
+													<strong class="bread-current bread-310">
+														<%= currentItem.name[polyglot.locale()] %>
+													</strong>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div class='monolit_sec monolit_page_sec content'>
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="wpb_column vc_column_container vc_col-sm-12">
+								<div class="vc_column-inner ">
+									<div class="wpb_wrapper">
+
+										<div class="vc_row wpb_row vc_inner vc_row-fluid custom-inner">
+
+											<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6">
+												<div class="vc_column-inner ">
+													<div class="wpb_wrapper">
+														<div class="wpb_text_column wpb_content_element ">
+															<div class="wpb_wrapper">
+																<h3><%= currentItem.name[polyglot.locale()] %></h3>
+																<p><%= currentItem.description[polyglot.locale()] %></p>
+															</div>
+														</div>
+														<div class="content-nav member-content-nav">
+															<ul>
+																<li>
+																	<a href="item.html?itemID=<%= prevIndex %>" rel="prev">
+																		<%= polyglot.t('portfolio.PREV_PROJECT') %>
+																	</a>
+																</li>
+																<li>
+																	<a href="item.html?itemID=<%= nextIndex %>" rel="next">
+																		<%= polyglot.t('portfolio.NEXT_PROJECT') %>
+																	</a>
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div class="vc_row wpb_row vc_inner vc_row-fluid custom-inner">
+
+											<% _.each(currentItem.screenshots, function(image, key){ %>
+											<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-6 vc_col-lg-3">
+												<div class="vc_column-inner ">
+													<div class="wpb_wrapper">
+														<div class="wpb_text_column wpb_content_element ">
+															<div class="wpb_wrapper">
+																<a data-fancybox="gallery" data-caption="<%= currentItem.name[polyglot.locale()] %>" href="projects/<%= currentItem.folder %>/full/<%= image %>">
+																	<img width="283" src="projects/<%= currentItem.folder %>/<%= image %>" class="respimg" alt="Image Title"/>
+																</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<% }); %>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<!-- content footer-->
+			<div class="height-emulator"></div>
+			<footer class="content-footer">
+				<!--  container  -->
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<!-- Footer logo -->
+							<div class="footer-item footer-logo">
+								<img src="images/logo.png" alt="Yulia Fomina">
+							</div>
+							<!-- Footer logo end -->
+						</div>
+						<!-- Footer info -->
+						<div class="col-md-2">
+							<div class="footer-item">
+								<h4 class="text-link"><%= polyglot.t('general.WRITE') %></h4>
+								<ul>
+									<li><a href="mailto:ifominayv@gmail.com">ifominayv@gmail.com</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- Footer info-->
+						<!-- Footer info end-->
+						<div class="col-md-2">
+							<div class="footer-item">
+								<h4 class="text-link"><%= polyglot.t('general.VISIT') %></h4>
+								<ul>
+									<li><span><%= polyglot.t('general.ADDRESS') %></span></li>
+								</ul>
+							</div>
+						</div>
+						<!-- Footer info end-->
+					</div>
+					<!-- Footer copyright -->
+					<div class="row">
+						<div class="col-md-6"></div>
+						<div class="col-md-6">
+							<div class="footer-wrap">
+								<span class="copyright">  &#169; Yulia Fomina   2017.  All rights reserved.</span>
+								<span class="to-top"><%= polyglot.t('general.TO_TOP') %></span>
+							</div>
+						</div>
+					</div>
+					<!-- Footer copyright end -->                        </div>
+				<!--  container  end -->
+				<!-- Hover animation  -->
+				<canvas class="particular footer-canvas" data-color="rgba(255,255,255,0.5)"></canvas>
+				<!-- Hover animation  end -->
+			</footer>
+			<!-- content footer end -->
+			<!-- share  -->
+			<div class="share-inner">
+				<div class="share-container  isShare"
+					 data-share="['facebook&#039;,&#039;pinterest&#039;,&#039;googleplus&#039;,&#039;twitter&#039;,&#039;linkedin']"></div>
+				<div class="close-share"></div>
+			</div>
+			<!-- share end -->
+		</div>
+		<!-- content-holder  end-->
+	</div>
+	<!-- wrapper end -->
+	<!-- Fixed footer -->
+	<footer class="fixed-footer monolit-footer">
+		<div class="footer-social">
+			<ul>
+				<li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li>
+				<li><a href="#" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+			</ul>
+		</div>
+		<!-- Header  title -->
+		<div class="footer-title">
+			<h2><a href="#"></a></h2>
+		</div>
+		<!-- Header  title  end-->
+	</footer>
+	<!-- Fixed footer end-->
+</script>
+
+<!--================= main start ================-->
+<div id="main">
+</div>
+<!-- Main end -->
+
+<script type="text/javascript">
+	function getParameterByName(name) {
+		var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+		return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+	}
+	var manualLang = getParameterByName('lang');
+	if(manualLang){
+		localStorage.setItem('portfolioLocale', manualLang);
+	}
+
+	var locale = localStorage.getItem('portfolioLocale') || 'en';
+	window.polyglot = new Polyglot({phrases: translations[locale], locale: locale});
+
+	var itemID = parseInt(getParameterByName('itemID'));
+	var currentItem = portfolioData[itemID - 1];
+
+	var prevIndex = (itemID > 1) ? itemID - 1 : portfolioData.length;
+	var nextIndex = (itemID < portfolioData.length) ? itemID + 1 : 1;
+
+	var template = jQuery("#mainTemplate").html();
+	jQuery("#main").html(_.template(template,{currentItem:currentItem, prevIndex:prevIndex, nextIndex:nextIndex, _:_}));
+</script>
+
+<script type='text/javascript' src='js/plugins.js'></script>
+<script type='text/javascript'>
+	/* <![CDATA[ */
+	var _monolit = {"shuffle_off": "", "parallax_off": ""};
+	/* ]]> */
+</script>
+<script type='text/javascript' src='js/scripts.js'></script>
+
+</body>
+</html>
