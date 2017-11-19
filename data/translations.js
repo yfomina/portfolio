@@ -19,21 +19,21 @@ var translations = {
 		'index':
 		{
 			'SECTION_1_TITLE': 'Welcome',
-			'SECTION_1_TEXT': 'Once I tried to design, I could not stop, and now the design - ' +
-				'a part of my life. To improve something or to create something new - is not an easy task, but only ' +
-				'this brings real satisfaction from work.',
-			'SECTION_1_TEXT_2': 'I follow the new trends, solutions and styles, because the design does not stand still, ' +
-				'but I\'m interested in everything new and progressive. Make something simple and convenient - this is a real challenge for a modern web designer.',
-			'SECTION_1_TEXT_3': 'I want to participate in projects that can be proud of, constantly improve my skills, ' +
-				'work in a team that is not afraid of challenges and knows what a quality product is.',
+            'SECTION_1_TEXT': 'My name is Yulia Fomina and I am a designer. <br/>' +
+            	'My job is not just creating beautiful pictures, but solving problems: "Solving the problem is a sufficient condition. Impressing with a solution is a special opportinity. "',
+            'SECTION_1_TEXT_2': 'Design is the first thing your client sees on your site. It is design that helps to turn a visitor into your client. <br/>' +
+            	'I do not design for the sake of design, I do design for the user. <br/> ' +
+            	'The project is "handmade": no templates in the design, no box solutions in the technical part, I do everything from scratch. <br/>' +
+            	'All my works are unique, just like all of my clients.',
+            'SECTION_1_TEXT_3': 'Good design: reliable, logical, functional, beautiful, enjoyable.',
 			'SECTION_1_VIEW_PORTFOLIO': 'View My Portfolio',
-			'SECTION_2_TITLE': 'My<strong> Skills</strong>',
-			'SECTION_2_TEXT': 'Solving the problem is sufficient. Impress with decision - a special opportunity. ' +
-				'System - that\'s what will help to build a logically correct site that effectively performs the assigned tasks. ' +
-				'Arranging elements and bringing similar to the common denominator is an important and responsible step in the web development phase.',
-			'SECTION_2_SKILL_1': 'Creativity',
-			'SECTION_2_SKILL_2': 'UI',
-			'SECTION_2_SKILL_3': 'LOGOS',
+			'SECTION_2_TITLE': 'Interesting <strong>Facts</strong>',
+			'SECTION_2_TEXT': 'Design is part of my life. To improve something or create something new is not an easy task, but only this brings real satisfaction from the work. <br/>' +
+            	'I follow new trends, solutions and styles, because the design does not stand still and I\'m interested in everything new and progressive. <br/>' +
+            	'To make something very stylish, simple, and also convenient is a real challenge for a modern designer!',
+			'SECTION_2_SKILL_1': 'Projects',
+			'SECTION_2_SKILL_2': 'Clients',
+			'SECTION_2_SKILL_3': 'Hours',
 			'SECTION_3_TITLE': 'My featured <strong> Works</strong>',
 			'SECTION_3_VIEW': 'View Project',
 			'SECTION_3_VIEW_ALL': 'View All Projects'
@@ -79,22 +79,21 @@ var translations = {
 		'index':
 		{
 			'SECTION_1_TITLE': 'Добро пожаловать',
-			'SECTION_1_TEXT': 'Один раз попробовав дизайнить, я уже не смогла остановиться, и теперь дизайн - ' +
-				'часть моей жизни. Улучшить то, что есть или создать что то новое - задача не из легких, но только ' +
-				'это приносит настоящее удовольствие от работы.',
-			'SECTION_1_TEXT_2': 'Я слежу за новыми тенденциями, направлениями и стилями, ведь дизайн не стоит на месте, ' +
-				'а мне интересно все новое и прогрессивное. Сделать просто и удобно - вот настоящий вызов для современного ' +
-				'веб дизайнера.',
-			'SECTION_1_TEXT_3': 'Хочу участвовать в проектах которыми можно гордиться, постоянно улучшать свои навыки, ' +
-				'работать в команде, которая не боится вызовов и знает что такое качественный продукт.',
+			'SECTION_1_TEXT': 'Меня зовут Юлия Фомина и я дизайнер. <br/>' +
+				'Моя работа — это не просто создание красивых картинок, а решение задач: "Решить проблему - достаточное условие. Впечатлить решением - особая возможность"',
+			'SECTION_1_TEXT_2': 'Дизайн – первое, что видит ваш клиент на вашем сайте. Именно дизайн помогает сделать простого посетителя Вашим покупателем. <br/>' +
+				'Я не делаю дизайн ради дизайна, делаю дизайн ради пользователя. <br/> ' +
+				'Проект "ручной работы": никаких шаблонов в дизайне, никаких коробочных решений в технической части, все делаю с нуля. <br/>' +
+				'Каждая моя работа индивидуальна, так же, как и каждый мой клиент.',
+			'SECTION_1_TEXT_3': 'Хороший дизайн: надежый, логичный, функциональный, красивый, доставляющий удовольствие.',
 			'SECTION_1_VIEW_PORTFOLIO': 'Посмотреть мое портфолио',
-			'SECTION_2_TITLE': 'Мои<strong> Способности</strong>',
-			'SECTION_2_TEXT': 'Решить проблему - достаточное условие. Впечатлить решением - особая возможность. ' +
-				'Система — вот что поможет построить логически верный сайт, эффективно выполняющий поставленные задачи. ' +
-				'Упорядочивание элементов и приведение похожих к общему знаменателю — важный и ответственный шаг на этапе веб-разработки.',
-			'SECTION_2_SKILL_1': 'Creativity',
-			'SECTION_2_SKILL_2': 'UI',
-			'SECTION_2_SKILL_3': 'LOGOS',
+			'SECTION_2_TITLE': 'Интересные <strong> Факты</strong>',
+			'SECTION_2_TEXT': 'Дизайн - это часть моей жизни. Улучшить что-то или создать что-то новое - это непростая задача, но только это приносит реальное удовлетворение от работы. <br/>' +
+            	'Я следую новым тенденциям, решениям и стилям, потому что дизайн не стоит на месте, но меня интересует все новое и прогрессивное. <br/>' +
+            	'Сделать что-то очень стильное, простое, а еще и удобное - это настоящий вызов для современного дизайнера!',
+			'SECTION_2_SKILL_1': 'Проекты',
+			'SECTION_2_SKILL_2': 'Клиенты',
+			'SECTION_2_SKILL_3': 'Часы',
 			'SECTION_3_TITLE': 'Мои избранные <strong> работы</strong>',
 			'SECTION_3_VIEW': 'Посмотреть проект',
 			'SECTION_3_VIEW_ALL': 'Посмотреть все проекты'

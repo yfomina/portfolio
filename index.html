@@ -31,7 +31,7 @@
 	<script type='text/javascript' src='data/portfolioData.js'></script>
 	<script type='text/javascript' src='data/tagsData.js'></script>
 
-	<script src="js/swiper/swiper.jquery.min.js"></script>
+	<script src="js/swiper/swiper.min.js"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -157,8 +157,6 @@
 		</div>
 
 		<div id='sec1' class='monolit_sec monolit_page_sec content'>
-
-
 			<section>
 				<!-- section number   -->
 				<div class="sect-subtitle right-align-dec" data-top-bottom="transform: translateY(200px);"
@@ -209,6 +207,11 @@
 
 											<!-- If we need scrollbar -->
 											<div class="swiper-scrollbar"></div>
+
+											<div class="customNavigation ssn">
+												<a class="prev-slide swiper-button-prev transition"><i class="fa fa-angle-left"></i></a>
+												<a class="next-slide swiper-button-next transition"><i class="fa fa-angle-right"></i></a>
+											</div>
 										</div>
 
 									</div>
@@ -242,7 +245,7 @@
 			</section>
 		</div>
 
-		<div id='sec2' class='monolit_sec monolit_page_sec content dark-bg'>
+		<div class='monolit_sec monolit_page_sec content dark-bg'>
 
 			<!-- parallax image  -->
 			<div class="parallax-inner">
@@ -255,96 +258,45 @@
 			<!-- parallax image  end -->
 
 			<section>
-				<div class="sect-subtitle left-align-dec" data-top-bottom="transform: translateY(-200px);"
-					 data-bottom-top="transform: translateY(200px);">
+				<div class="sect-subtitle left-align-dec skrollable skrollable-between" data-top-bottom="transform: translateY(-200px);" data-bottom-top="transform: translateY(200px);" style="transform: translateY(93.2231px);">
 					<span>02</span></div>
 				<!-- section number  end  -->
 				<div class="container">
 					<div class="row">
-						<div class="wpb_column vc_column_container vc_col-sm-12">
-							<div class="vc_column-inner ">
+						<div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner "><div class="wpb_wrapper">
+							<div class="wpb_text_column wpb_content_element ">
 								<div class="wpb_wrapper">
-									<div class="vc_row wpb_row vc_inner vc_row-fluid">
-										<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper">
-													<div class="wpb_text_column wpb_content_element ">
-														<div class="wpb_wrapper">
-															<h2 class="section-title"><%= polyglot.t('index.SECTION_2_TITLE') %></h2>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper">
-													<div class="wpb_text_column wpb_content_element ">
-														<div class="wpb_wrapper">
-															<p class="no-rep"><%= polyglot.t('index.SECTION_2_TEXT') %></p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="vc_row wpb_row vc_inner vc_row-fluid">
-										<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper"></div>
-											</div>
-										</div>
-										<div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8">
-											<div class="vc_column-inner ">
-												<div class="wpb_wrapper"><!-- piecharts  -->
-													<div class="piechart-holder animaper "
-														 data-skcolor="rgba(255,255,255,0.31)" data-pies="150"
-														 data-pielw="30">
-														<div class="row">
-
-															<div class="piechart col-md-4">
-																<span class="chart" data-percent="85">
-																	<span class="percent"></span><span class="pie_unit"><span>%</span></span>
-																</span>
-																<div class="clearfix"></div>
-																<div class="skills-description">
-																	<h4><%= polyglot.t('index.SECTION_2_SKILL_1') %></h4></div>
-															</div><!-- //piechart  -->
-
-															<div class="piechart col-md-4"
-																 data-top-bottom="transform: translateY(80px);"
-																 data-bottom-top="transform: translateY(-80px);"
-															>
-																<span class="chart" data-percent="95">
-																	<span class="percent"></span><span class="pie_unit"><span>%</span></span>
-																</span>
-																<div class="clearfix"></div>
-																<div class="skills-description">
-																	<h4><%= polyglot.t('index.SECTION_2_SKILL_2') %></h4></div>
-															</div><!-- //piechart  -->
-
-															<div class="piechart col-md-4"
-																 data-top-bottom="transform: translateY(100px);"
-																 data-bottom-top="transform: translateY(-100px);"
-															>
-																<span class="chart" data-percent="80">
-																	<span class="percent"></span><span class="pie_unit"><span>%</span></span>
-																</span>
-																<div class="clearfix"></div>
-																<div class="skills-description">
-																	<h4><%= polyglot.t('index.SECTION_2_SKILL_3') %></h4></div>
-															</div><!-- //piechart  -->
-
-														</div>
-													</div>
-													<!-- piecharts  end--></div>
-											</div>
-										</div>
-									</div>
+									<h2 class="section-title"><%= polyglot.t('index.SECTION_2_TITLE') %></h2>
 								</div>
 							</div>
-						</div>
-					</div>
+						</div></div></div><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-8"><div class="vc_column-inner "><div class="wpb_wrapper">
+							<div class="wpb_text_column wpb_content_element ">
+								<div class="wpb_wrapper">
+									<p class="no-rep"><%= polyglot.t('index.SECTION_2_TEXT') %></p>
+								</div>
+							</div>
+						</div></div></div></div><div class="vc_row wpb_row vc_inner vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12 vc_col-md-4"><div class="vc_column-inner "><div class="wpb_wrapper"></div></div></div><div class="inline-facts-holder row wpb_column vc_column_container vc_col-sm-12 vc_col-md-8"><div class="vc_column-inner "><div class="wpb_wrapper"><div class="inline-facts col-md-4">
+							<div class="milestone-counter">
+								<div class="stats animaper">
+									<div class="num" data-content="461" data-num="461">461</div>
+								</div>
+							</div>
+							<h6><%= polyglot.t('index.SECTION_2_SKILL_1') %></h6>
+							<p></p></div><div class="inline-facts col-md-4 skrollable skrollable-between" data-top-bottom="transform: translateY(80px);" data-bottom-top="transform: translateY(-80px);" style="transform: translateY(-36.0251px);">
+							<div class="milestone-counter">
+								<div class="stats animaper">
+									<div class="num" data-content="168" data-num="168">168</div>
+								</div>
+							</div>
+							<h6><%= polyglot.t('index.SECTION_2_SKILL_2') %></h6>
+							<p></p></div><div class="inline-facts col-md-4 skrollable skrollable-between" data-top-bottom="transform: translateY(100px);" data-bottom-top="transform: translateY(-100px);" style="transform: translateY(-45.0314px);">
+							<div class="milestone-counter">
+								<div class="stats animaper">
+									<div class="num" data-content="222" data-num="222">222</div>
+								</div>
+							</div>
+							<h6><%= polyglot.t('index.SECTION_2_SKILL_3') %></h6>
+							<p></p></div></div></div></div></div></div></div></div>            </div>
 				</div>
 			</section>
 		</div>
@@ -539,10 +491,16 @@
 
 	var mySwiper = new Swiper ('.swiper-container', {
 		loop: false,
-		scrollbar: '.swiper-scrollbar',
-		scrollbarHide: false,
-		scrollbarDraggable: true,
-		scrollbarSnapOnRelease: true
+        scrollbar: {
+            el: '.swiper-scrollbar',
+            draggable: true,
+            hide: false,
+            snapOnRelease: true
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
 	})
 </script>
 
