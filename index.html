@@ -206,7 +206,7 @@
 											<div class="swiper-button-next swiper-button-white"></div>-->
 
 											<!-- If we need scrollbar -->
-											<div class="swiper-scrollbar"></div>
+											<!--<div class="swiper-scrollbar"></div>-->
 
 											<div class="customNavigation ssn">
 												<a class="prev-slide swiper-button-prev transition"><i class="fa fa-angle-left"></i></a>
@@ -490,17 +490,11 @@
 	jQuery("#main").html(_.template(template,{portfolioData:portfolioData, tagsData:tagsData, _:_}));
 
 	var mySwiper = new Swiper ('.swiper-container', {
-		loop: false,
-        scrollbar: {
-            el: '.swiper-scrollbar',
-            draggable: true,
-            hide: false,
-            snapOnRelease: true
-        },
+		loop: true,
         navigation: {
             nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
+            prevEl: '.swiper-button-prev'
+        }
 	})
 </script>
 
