@@ -204,7 +204,7 @@
 																<%= item.name[polyglot.locale()] %>
 															</a>
 														<% } else { %>
-															<a class="fancybox" data-caption="<%= item.name[polyglot.locale()] %>" href="projects/<%= item.folder %>/full/<%= item.previewImage %>">
+															<a class="fancybox" href="javascript:;" data-caption="<%= item.name[polyglot.locale()] %>" data-href="projects/<%= item.folder %>/full/<%= item.previewImage %>">
 																<%= item.name[polyglot.locale()] %>
 															</a>
 														<% } %>
@@ -336,9 +336,12 @@
 	var template = jQuery("#mainTemplate").html();
 	jQuery("#main").html(_.template(template,{portfolioData:portfolioData, tagsData:tagsData, _:_}));
 
-	jQuery('.gallery-item').on('click', function(){
+	jQuery('.gallery-item').on('click', function(event){
+
+		event.preventDefault();
+
 		if(jQuery(this).find('.grid-item a').hasClass('fancybox')){
-			var url = jQuery(this).find('.grid-item a').attr('href');
+			var url = jQuery(this).find('.grid-item a').data('href');
 			var caption = jQuery(this).find('.grid-item a').data('caption');
 			var fancyboxItem = {
 				src  : url,
@@ -346,6 +349,28 @@
 					caption : caption
 				}
 			};
+			var fancyboxItemsArray = [];
+			fancyboxItemsArray.push(fancyboxItem);
+			jQuery.fancybox.open( fancyboxItemsArray, {} );
+		} else {
+			jQuery(this).find('.grid-item a').trigger('click');
+		}
+	});
+
+	jQuery('.grid-item a').on('click', function(event){
+
+		event.preventDefault();
+
+		if(jQuery(this).hasClass('fancybox')){
+			var url = jQuery(this).data('href');
+			var caption = jQuery(this).data('caption');
+			var fancyboxItem = {
+				src  : url,
+				opts : {
+					caption : caption
+				}
+			};
+
 			var fancyboxItemsArray = [];
 			fancyboxItemsArray.push(fancyboxItem);
 			jQuery.fancybox.open( fancyboxItemsArray, {} );
