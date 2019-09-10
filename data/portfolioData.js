@@ -2,6 +2,34 @@ var portfolioData = [
 	{
 		'tags': ['site'],
 		'name': {
+			'en': 'Clean Up',
+			'ru': 'Прибери'
+		},
+		'folder': '13_Cleanup',
+		'previewImage': 'Cleanup.prew.jpg',
+		'screenshots': [
+			'cleanup_1.jpg',
+			'cleanup_2.jpg',
+			'cleanup_3.jpg',
+			'cleanup_4.jpg',
+			'cleanup_5.jpg',
+			'cleanup_6.jpg',
+			'cleanup_7.jpg',
+			'cleanup_8.jpg',
+			'cleanup_9.jpg'
+		],
+		'description': {
+			'en': 'Website design for "Our Kiev". ' +
+				'Social project - online platform "Clean Up". ' +
+				'It is at the same time a map of civilised places to walk with your dog and crowdfunding platform to equip such places.',
+			'ru': 'Разработка дизайна сайта для "Наш Киев". ' +
+				'Социальный проект - онлайн платформа "Прибери". ' +
+				'Это одновременно и карта мест цивилизованного выгула собак в городе, и краудфандинговая платформа для оборудования подобных площадок.'
+		}
+	},
+	{
+		'tags': ['site'],
+		'name': {
 			'en': 'Security Evolution',
 			'ru': 'Security Evolution'
 		},
