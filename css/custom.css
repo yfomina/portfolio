@@ -62,3 +62,7 @@ article.content-none {margin-top: 0px;z-index: 3;background: #fff;}
 .vc_column_container>.vc_column-inner{
 	padding-bottom:30px;
 }
+
+#mapid{
+	height:400px;
+}
